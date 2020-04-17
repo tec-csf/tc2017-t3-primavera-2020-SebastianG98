@@ -3,7 +3,7 @@
 ---
 
 ##### Integrantes:
-1. *[Sebastián Gómez Gutiérrez]* - *[A01374843]* - *[CSF]*
+1. *Sebastián Gómez Gutiérrez* - *A01374843* - *CSF*
 
 ---
 ## 1. Aspectos generales
@@ -40,8 +40,28 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
+*1.- Abrir la terminal.
+
+2.- Acceder al directorio donde vas a clonar el repositorio. Ej: cd desktop.
+
+3.- Usar el comando "git clone" seguido del link del repositorio, que es el siguiente: https://github.com/tec-csf/tc2017-t3-primavera-2020-SebastianG98 . Quedaria de la siguente manera: "git clone https://github.com/tec-csf/tc2017-t3-primavera-2020-SebastianG98".
+
+4.- Acceder al clon/carpeta del repositorio desde la terminal, el cuál se guardó donde se hizo el "git clone". Ej: "cd tc2017-t3-primavera-2020-SebastianG98".
+
+5.- Una vez que estés dentro de la carpeta del repositorio tendras que acceder a la carpeta de sources con el siguente comando: "cd sources".
+
+6.- Deberas elejir que programa es el que quieres utilizar. Si quieres utilizar el programa busquedaVector.cpp deberas ir al paso 7) y continuar con el 8). Si quieres utilizar el programa hamiltoniano.cpp deberas ir al paso 9) y continuar con el 10).
+
+7.- Para poder utilizar el programa de busquedaVector primero deberas compilar con el siguiente comando: "g++ busquedaVector.cpp -o busquedaVector".
+
+8.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./busquedaVector".
+
+9.- Para poder utilizar el programa de hamiltoniano primero deberas compilar con el siguiente comando: "g++ hamiltoniano.cpp -o hamiltoniano".
+
+10.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./hamiltoniano".
+*
 
 ## 3. Referencias
 
-*[Incluya aquí las referencias a sitios de interés y cualquier otra información que haya utilizado para realizar la actividad y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+*GeeksforGeeks. (2019). Traveling Salesman Problem using Branch And Bound. [Online]. Recuperado de: https://www.geeksforgeeks.org/traveling-salesman-problem-using-branch-and-bound-2/
+ProgrammingAlgorithms.net (2019). Bubble Sort. [Online]. Recuperado de: https://www.programming-algorithms.net/article/39344/Bubble-sort*
