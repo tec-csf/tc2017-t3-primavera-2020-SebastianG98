@@ -101,4 +101,6 @@ int main(){// inicia main
     //Comprobar resultado
     comprobar(busca,valor);
 
+    cout << "\nLa complejidad de este algoritmo es O(n^2).\n";
+
 }// termina main

@@ -36,7 +36,9 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 2. Solución
 
-*[Incluya aquí una explicación de la solución implementada]*
+*Para el primer problema, que es el de ciclo Hamiltoniano, se utilizo un algoritmo avido. Este problema buscaba el ciclo de costo minimo recorriendo todos sus vertices, empezando en 0 y terminando en 0. Tambien se utilizo el metodo de Branch and Bound que consiste en marcar un limite en la mejor solucion posible. Esto para poder comparar otras soluciones y poder quedarnos con la que pueda dar el menor costo en el ciclo hamiltoniano.
+
+Para el segundo problema, que es el de buscar un numero en un vector. se utilizo el metodo de divide y venceras para poder encontrar un numero dividiendo el vector hasta encontrar el número que cumpla con las condiciones (1<=i<=n) y (a[i]=i). Primero se llena el arreglo y despues se ordena con el metodo de BuubbleSort. Posteriormente se aplica el algoritmo de divide y venceras. Una vez obtenido el resultado de divide y venceras se comprueba la respuesta para determinar si el numero a buscar cumple con las condiciones establecidas.*
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
@@ -50,15 +52,15 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 5.- Una vez que estés dentro de la carpeta del repositorio tendras que acceder a la carpeta de sources con el siguente comando: "cd sources".
 
-6.- Deberas elejir que programa es el que quieres utilizar. Si quieres utilizar el programa busquedaVector.cpp deberas ir al paso 7) y continuar con el 8). Si quieres utilizar el programa hamiltoniano.cpp deberas ir al paso 9) y continuar con el 10).
+6.- Deberas elejir que programa es el que quieres utilizar. Si quieres utilizar el programa hamiltoniano.cpp deberas ir al paso 7) y continuar con el 8). Si quieres utilizar el programa busquedaVector.cpp deberas ir al paso 9) y continuar con el 10).
 
-7.- Para poder utilizar el programa de busquedaVector primero deberas compilar con el siguiente comando: "g++ busquedaVector.cpp -o busquedaVector".
+7.- Para poder utilizar el programa de hamiltoniano primero deberas compilar con el siguiente comando: "g++ hamiltoniano.cpp -o hamiltoniano".
 
-8.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./busquedaVector".
+8.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./hamiltoniano".
 
-9.- Para poder utilizar el programa de hamiltoniano primero deberas compilar con el siguiente comando: "g++ hamiltoniano.cpp -o hamiltoniano".
+9.- Para poder utilizar el programa de busquedaVector primero deberas compilar con el siguiente comando: "g++ busquedaVector.cpp -o busaquedaVector".
 
-10.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./hamiltoniano".
+10.- El siguiente paso, para poder correrlo, es ingresar el siguiente comando: "./busquedaVector".
 *
 
 ## 3. Referencias

@@ -195,5 +195,6 @@ int main()
         printf("%d ", final_path[i]); 
   
     cout << "\n";
+    cout << "La complejidad de este algoritmo es O(n*m). Este algoritmo no tiene un tiempo de complejidad aprovado, lo que no convierte en un NP.\n";
     return 0; 
 } 
