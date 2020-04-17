@@ -1,0 +1,6 @@
+labguage: cpp
+compiler: gcc
+script:
+  -cd sources
+  -g++ hamiltoniano.cpp -o hamiltoniano 
+  -g++ busquedaVector.cpp -o busquedaVector
