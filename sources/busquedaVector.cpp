@@ -1,3 +1,10 @@
+/* 
+    Sebatian Gomez Gutierrez
+    Sea a[1..n] un vector ordenado de enteros todos distintos, implementar un algoritmo con la menor 
+    compejidad posible en el peor caso capaz de encontrar un índice i tal que 1≤i≤n y a[i] = i, 
+    suponiendo que tal índice exista.
+    17/04/2020
+*/
 #include <iostream>
 #include <ctime>
 #include <bits/stdc++.h> 
