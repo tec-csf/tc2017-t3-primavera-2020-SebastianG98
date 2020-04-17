@@ -51,8 +51,6 @@ void comprobar(int busca, int valor){
     else{
         cout << "\nEl numero "; cout << valor; cout << " cumple las condiciones (1<=i<=n) y (a[i] = i)\n";
     }
-    
-
 }
 
 int main(){// inicia main
@@ -74,8 +72,12 @@ int main(){// inicia main
     //LLenar arreglo numeros random
     llenar(a,size);
 
+
     //Ordenar arreglo (BubbleSort)
     ordenar(a,size);
+
+    /*int a[10] = {3,4,5,6,7,8,9,10,11,12};
+    int size = sizeof(a)/sizeof(a[0]);*/
 
     cout << "\nArreglo ordenado"<<endl;
     for (int i = 0; i < size; i++)
