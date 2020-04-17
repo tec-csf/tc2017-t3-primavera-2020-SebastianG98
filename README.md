@@ -68,3 +68,5 @@ Para el segundo problema, que es el de buscar un numero en un vector. se utilizo
 *GeeksforGeeks. (2019). Traveling Salesman Problem using Branch And Bound. [Online]. Recuperado de: https://www.geeksforgeeks.org/traveling-salesman-problem-using-branch-and-bound-2/
 
 ProgrammingAlgorithms.net (2019). Bubble Sort. [Online]. Recuperado de: https://www.programming-algorithms.net/article/39344/Bubble-sort*
+
+ScienceDirect (2009). Branch-and-Bound Algorithm Design. [Online]. Recuperado de: https://www.sciencedirect.com/topics/computer-science/branch-and-bound-algorithm-design
